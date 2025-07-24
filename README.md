@@ -9,7 +9,7 @@ This repository contains analysis code and visualizations related to the paper:
 
 ## Objective
 
-The primary goal of this project is to reproduce **Figure 11** of the paper — the **Power–Linear Size (P–D) diagram** for radio-loud AGN (RLAGN) — using the publicly released LoTSS DR2 AGN catalog.
+The primary goal of this project is to reproduce **Figure 11** of the paper - the **The luminosity function of LOFAR RLAGN as a function of redshift** using the publicly released LoTSS DR2 AGN catalog.
 
 Additional objectives include:
 

@@ -1,0 +1,26 @@
+# FITS files (astronomy data files)
+*.fits
+*.fit
+*.fts
+
+# Windows Zone.Identifier files created in WSL
+*:Zone.Identifier
+
+# Common temporary files
+*.tmp
+*.TMP
+*~RF*.TMP
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

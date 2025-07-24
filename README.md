@@ -28,6 +28,6 @@ lotss-dr2-agn-analysis/
 ├── notebooks/                 # Jupyter notebooks for exploration and plots
 ├── scripts/                   # Reusable Python modules or tools
 ├── plots/                     # Reproduced figures and diagnostics
-├── requirements.txt           # Python dependencies (optional)
+├── requirements.txt           # Python dependencies
 ├── .gitignore                 # Ignore large files like .fits
 └── README.md                  # This file

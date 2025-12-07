@@ -1,3 +1,13 @@
+# Data directory (contains large astronomy files)
+data/
+CNN-data/
+lofar_cutouts/
+agn_cutouts/
+
+*.pt 
+*.pth 
+*.csv
+*.txt
 # FITS files (astronomy data files)
 *.fits
 *.fit

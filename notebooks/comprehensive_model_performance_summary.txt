@@ -1,0 +1,44 @@
+Comprehensive AGN Classification Model Comparison
+============================================================
+
+OVERVIEW:
+Total samples analyzed: 55
+True NAT count: 10
+True WAT count: 45
+
+SYNTHETIC MODEL PERFORMANCE:
+Accuracy: 0.255 (25.5%)
+Mean confidence: 0.735
+Predicted NAT: 51
+Predicted WAT: 4
+
+REAL AGN MODEL PERFORMANCE:
+Accuracy: 0.800 (80.0%)
+Mean confidence: 0.796
+Predicted NAT: 19
+Predicted WAT: 36
+
+COMPARISON:
+Improvement: 0.545 (54.5 percentage points)
+Model agreement: 17/55 (30.9%)
+
+SYNTHETIC MODEL CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+         NAT       0.20      1.00      0.33        10
+         WAT       1.00      0.09      0.16        45
+
+    accuracy                           0.25        55
+   macro avg       0.60      0.54      0.25        55
+weighted avg       0.85      0.25      0.19        55
+
+
+REAL AGN MODEL CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+         NAT       0.47      0.90      0.62        10
+         WAT       0.97      0.78      0.86        45
+
+    accuracy                           0.80        55
+   macro avg       0.72      0.84      0.74        55
+weighted avg       0.88      0.80      0.82        55

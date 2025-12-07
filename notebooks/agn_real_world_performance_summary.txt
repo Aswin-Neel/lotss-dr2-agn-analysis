@@ -1,0 +1,22 @@
+AGN Real-World Classification Performance Summary
+==================================================
+
+Total Samples: 55
+Accuracy: 0.2545454545454545
+True Nat Count: 10
+True Wat Count: 45
+Predicted Nat Count: 51
+Predicted Wat Count: 4
+Misclassified Count: 41
+Mean Confidence: 0.7345815896987915
+Median Confidence: 0.7552903294563293
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         NAT       0.20      1.00      0.33        10
+         WAT       1.00      0.09      0.16        45
+
+    accuracy                           0.25        55
+   macro avg       0.60      0.54      0.25        55
+weighted avg       0.85      0.25      0.19        55

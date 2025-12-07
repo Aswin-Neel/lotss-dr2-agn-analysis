@@ -13,7 +13,7 @@ The primary goal of this project is to reproduce **Figure 11** of the paper - th
 
 Additional objectives include:
 
-- Overlaying LOFAR sources on optical imaging (e.g., Legacy Survey)
+- Overlaying LOFAR sources on optical imaging
 - Fitting Gaussian models to LOFAR radio sources
 - Comparing source properties with public catalogs
 

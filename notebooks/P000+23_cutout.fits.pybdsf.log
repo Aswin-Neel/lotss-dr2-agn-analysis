@@ -1,0 +1,69 @@
+
+========================================================================
+Sat 16-08-2025 10:13:30:: INFO    : Processing P000+23_cutout.fits
+Sat 16-08-2025 10:13:30:: INFO    : PyBDSF version 1.13.0.post2
+Sat 16-08-2025 10:13:30:: INFO    : Non-default input parameters:
+                                        filename             = 'P000+23_cutout.fits'
+Sat 16-08-2025 10:13:30:: USERINFO: --> Opened 'P000+23_cutout.fits'
+Sat 16-08-2025 10:13:30:: INFO    : Original data shape of P000+23_cutout.fits: (100, 100)
+Sat 16-08-2025 10:13:30:: INFO    : Final data shape (npol, nchan, x, y): (1, 1, 100, 100)
+Sat 16-08-2025 10:13:30:: USERINFO: Image size .............................. : (100, 100) pixels
+Sat 16-08-2025 10:13:30:: USERINFO: Number of channels ...................... : 1
+Sat 16-08-2025 10:13:30:: USERINFO: Number of Stokes parameters ............. : 1
+Sat 16-08-2025 10:13:30:: USERINFO: Beam shape (major, minor, pos angle) .... : (1.66667e-03, 1.66667e-03, 90) degrees
+Sat 16-08-2025 10:13:30:: INFO    : Equinox not found in image header. Assuming J2000.
+Sat 16-08-2025 10:13:30:: USERINFO: Frequency of image ...................... : 143.650 MHz
+Sat 16-08-2025 10:13:30:: USERINFO: Number of blank pixels .................. : 0 (0.0%)
+Sat 16-08-2025 10:13:30:: INFO    : Raw mean (Stokes I) =  147.0229 mJy and raw rms =  1792.6458 mJy 
+Sat 16-08-2025 10:13:30:: INFO    : sigma clipped mean (Stokes I) =  -0.0101 mJy and  sigma clipped rms =  8.6842 mJy 
+Sat 16-08-2025 10:13:30:: USERINFO: Flux from sum of (non-blank) pixels ..... : 81.095 Jy
+Sat 16-08-2025 10:13:30:: INFO    : Estimated bmpersrc_th =   20.70
+Sat 16-08-2025 10:13:30:: INFO    : Parameter confused is True
+Sat 16-08-2025 10:13:31:: USERINFO: --> Calculating background rms and mean images
+Sat 16-08-2025 10:13:31:: INFO    : Estimated size of brightest source (pixels) = 3
+Sat 16-08-2025 10:13:31:: INFO    : Maximum extent of largest 10-sigma island using clipped rms (pixels) = 19
+Sat 16-08-2025 10:13:31:: USERINFO: Derived rms_box (box size, step size) ... : (95, 10) pixels
+Sat 16-08-2025 10:13:31:: USERINFO: --> Size of rms_box larger than 1/4 of image size
+Sat 16-08-2025 10:13:31:: USERINFO: --> Using constant background rms and mean
+Sat 16-08-2025 10:13:31:: USERINFO: Value of background rms ................. : 8.68e-03 Jy/beam
+Sat 16-08-2025 10:13:31:: USERINFO: Value of background mean ................ : -1e-05 Jy/beam
+Sat 16-08-2025 10:13:31:: USERINFO: --> Expected 5-sigma-clipped false detection rate < fdr_ratio
+Sat 16-08-2025 10:13:31:: USERINFO: --> Using sigma-clipping ('hard') thresholding
+Sat 16-08-2025 10:13:31:: USERINFO: Minimum number of pixels per island ..... : 6
+Sat 16-08-2025 10:13:31:: USERINFO: Number of islands found ................. : 6
+Sat 16-08-2025 10:13:32:: USERINFO: Total number of Gaussians fit to image .. : 10
+Sat 16-08-2025 10:13:32:: USERINFO: Total flux density in model ............. : 81.270 Jy
+Sat 16-08-2025 10:13:32:: USERINFO: --> Grouping Gaussians into sources
+Sat 16-08-2025 10:13:32:: USERINFO: Number of sources formed from Gaussians   : 1
+Sat 16-08-2025 10:13:32:: WARNING : All Gaussians were flagged for the following islands:
+                                        Island #0 (x=32, y=40): fit with 10 Gaussians with flags = 262, 256, 256, 381, 256, 262, 260, 4, 264, 262
+                                        Island #1 (x=33, y=65): fit with 1 Gaussian with flag = 256
+                                        Island #3 (x=45, y=42): fit with 4 Gaussians with flags = 256, 264, 264, 14
+                                        Island #4 (x=48, y=74): fit with 1 Gaussian with flag = 256
+                                        Island #5 (x=57, y=51): fit with 3 Gaussians with flags = 256, 256, 12
+                                    Please check these islands. If they are valid islands and
+                                    should be fit, try adjusting the flagging options (use
+                                    show_fit with "ch0_flagged=True" to see the flagged Gaussians
+                                    and "help 'flagging_opts'" to see the meaning of the flags)
+                                    or enabling the wavelet module (with "atrous_do=True").
+                                    To include empty islands in output source catalogs, set
+                                    incl_empty=True in the write_catalog task.
+Sat 16-08-2025 10:13:32:: INFO    : Calculating residual image after subtracting reconstructed gaussians
+Sat 16-08-2025 10:13:32:: INFO    : Statistics of the Gaussian residual image:
+                                            mean: -3.155e-04 (Jy/beam)
+                                        std. dev: 1.349e-02 (Jy/beam)
+                                            skew: -1.054
+                                        kurtosis: 9.254
+Sat 16-08-2025 10:13:32:: INFO    : Internally derived parameters:
+                                        beam                 : (0.001666666666666667, 0.001666666666666667, 90)
+                                        bmpersrc_th          : np.float64(20.70393374741201)
+                                        frequency            : 143650000.0
+                                        indir                : './'
+                                        maxpix_isl           : inf
+                                        minpix_isl           : 6
+                                        outdir               : '/home/aswin/vs code/repositories/lotss-dr2-agn-analysis/notebooks'
+                                        rms_box              : (95, 10)
+                                        rms_box_bright       : (38, 10)
+                                        thresh               : 'hard'
+Sat 16-08-2025 10:14:03:: INFO    : Writing P000+23_cutout.pybdsf.srl.fits
+Sat 16-08-2025 10:14:03:: INFO    : Writing P000+23_cutout.pybdsf.gaul.fits

@@ -1,0 +1,1 @@
+CNN Performance Summary on AGN Sources\n==================================================\nTotal sources: 55\nOverall accuracy: 0.182 (18.2%)\nWAT accuracy: 0.000\nNAT accuracy: 1.000\nHigh confidence predictions: 0/55\nAverage confidence: 0.519\n

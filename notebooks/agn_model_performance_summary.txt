@@ -1,0 +1,9 @@
+AGN-Trained CNN Model Performance Summary
+==================================================
+Total sources: 55
+Overall accuracy: 1.000 (100.0%)
+WAT accuracy: 1.000
+NAT accuracy: 1.000
+High confidence predictions: 55/55
+Average confidence: 0.997
+Model: Trained on real LOFAR AGN cutouts
